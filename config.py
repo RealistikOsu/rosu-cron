@@ -128,5 +128,6 @@ class Config(ConfigReader):
     sql_password: str  = ""
     redis_addr: str    = "127.0.0.1:6379"
     redis_pass: str    = ""
+    sup_badge_id: int  = 1002
 
 conf = Config()
